@@ -13,6 +13,7 @@
         <div @click="current(item._id)">查看</div>
         <div @click="updatecurrent(item._id)">更新</div>
     </div>
+    <!-- <div @click="addTemps" class="add-more">添加更多</div> -->
 </div>
 
 </template>
@@ -80,6 +81,10 @@ export default {
           this.updateTemp(id,{})
           this.state = '更新当前'
           this.currentId = id;
+      },
+      addTemps(){
+          this.page += 1;
+          this.getTempsList();
       }
   }
 }
@@ -91,5 +96,8 @@ export default {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+}
+.add-more{
+    text-align: center;
 }
 </style>

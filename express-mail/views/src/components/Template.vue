@@ -1,8 +1,11 @@
 <template>
 <div>
-    <button @click="createTemp">添加template</button>
-    <div>
-        {{state}}:{{currentId}}
+    <h2>邮件管理模版页面</h2>
+    <div class="template-item">
+        <button @click="createTemp">添加template</button>
+        <div>
+            {{state}}:{{currentId}}
+        </div>
     </div>
     <div class="template-item" v-for="(item,index) of list" :key="index">
         <div>{{item._id}}</div>

@@ -15,3 +15,13 @@
 - id String 唯一标示
 - template text可以支持HTML
 - data邮件填充数据
+
+### 项目前准备
+#### 创建项目
+```````
+npm init
+```````
+#### 添加相关工具 
+```````
+npm install --dev express nodemon body-parser mongoose
+```````

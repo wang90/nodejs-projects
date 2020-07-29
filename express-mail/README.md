@@ -25,3 +25,9 @@ npm init
 ```````
 npm install --dev express nodemon body-parser mongoose
 ```````
+
+## 前端项目
+``````
+cd views
+npm install
+``````

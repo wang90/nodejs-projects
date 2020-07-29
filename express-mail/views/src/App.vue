@@ -1,0 +1,28 @@
+<template>
+  <div id="app">
+    <template-view/>
+  </div>
+</template>
+
+<script>
+import TemplateView from './components/Template.vue'
+
+
+export default {
+  name: 'App',
+  components: {
+    'template-view':TemplateView,
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>

@@ -1,4 +1,9 @@
 ## easy ssr
+#### run 
+`````
+npm run-script start or yarn start
+`````
+
 
 #### 利用react-dom/server 在 express 服务器中 生成react ssr 网站
 

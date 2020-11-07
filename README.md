@@ -18,5 +18,5 @@
 ### B站爬虫 [puppeteer]
 [puppeteer-BiBi](./puppeteer-BiBi/)
 
-### express中的react ssr [express + react-ssr]
-[puppeteer-BiBi](./easy-ssr/)
+### express中的react ssr [react ssr]
+[express-react-ssr](./express-react-ssr/)

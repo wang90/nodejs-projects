@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/Cellar/nvm/0.35.3/versions/node/v14.5.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/opt/nvm/versions/node/v14.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/nvm/versions/node/v14.5.0/bin:/Users/wang90/flutter/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/wang90/easy-nodejs-projects/easy-ssr/package.json: Unexpected token } in JSON at position 708
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "easy-ssr",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "yarn build-client && node ./src/app.js",
+      "build-client": "webpack --config ./webpack.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.3",
+      "@babel/preset-env": "^7.12.1",
+      "@babel/preset-react": "^7.12.5",
+      "@babel/register": "^7.12.1",
+      "babel-loader": "^8.1.0",
+      "copy-webpack-plugin": "^6.3.0",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.12"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

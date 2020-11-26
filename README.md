@@ -20,3 +20,7 @@
 
 ### express中的react ssr [react ssr]
 [express-react-ssr](./express-react-ssr/)
+
+### express + vue-admin + wxapp 应用（express wxapp ）
+[express-wxapp](./express-wxapp/)
+

@@ -24,3 +24,6 @@
 ### express + vue-admin + wxapp 应用（express wxapp ）
 [express-wxapp](./express-wxapp/)
 
+### 爬取微博敏感词script
+[crawling-weibo](https://github.com/wang90/crawling-Weibo-Searches/)
+

@@ -25,5 +25,7 @@
 [express-wxapp](./express-wxapp/)
 
 ### 爬取微博热搜敏感词脚本
-[crawling-weibo-search](crawling-weibo-search)
+[crawling-weibo-search](./crawling-weibo-search)
 
+### websocket-chat
+[websocket-chat](./websocket-chat)
